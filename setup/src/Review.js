@@ -4,7 +4,7 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
 const Review = () => {
   const[index, setIndex] = useState(1);
-  const {id,name, job, image, text} = people[index];
+  const {name, job, image, text} = people[index];
 
  const checkIndex = (index) =>{
    if(index > people.length -1){
